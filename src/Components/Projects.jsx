@@ -5,7 +5,6 @@ export default function Projects() {
     <section id="projects">
       <h2>Projects</h2>
       <div id="projects-grid">
-
       </div>
       </section>
   )
