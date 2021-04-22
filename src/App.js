@@ -11,8 +11,8 @@ import './App.css';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab, faGithubAlt, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-import { faCheckSquare, faCoffee,  } from '@fortawesome/free-solid-svg-icons'
-library.add(fab, faCheckSquare, faCoffee, faGithubAlt, faLinkedinIn);
+import { faCheckSquare, faCoffee, faEnvelope, faEnvelopeOpen } from '@fortawesome/free-solid-svg-icons'
+library.add(fab, faCheckSquare, faCoffee, faGithubAlt, faLinkedinIn, faEnvelope, faEnvelopeOpen);
 
 function App() {
   return (

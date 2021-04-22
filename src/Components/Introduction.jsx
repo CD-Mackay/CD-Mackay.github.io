@@ -22,7 +22,7 @@ export default function Introduction() {
 
           <li>
             <a href="mailto: connor.mackay@gmail.com">
-              <i class="fas fa-envelope"></i>
+              <FontAwesomeIcon icon={["fa", "envelope"]} />
             </a>
           </li>
           <li>
