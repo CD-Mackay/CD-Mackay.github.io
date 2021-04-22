@@ -63,7 +63,14 @@ html {
 body {
   margin: 0px;
   //background-image: url("images/asfalt-light.png");
+}
 
+.git-link {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 5px;
+  margin-left: 5px;
 }
 
 #intro-div {
@@ -124,6 +131,10 @@ li {
   background-color: rgba(0,0,0,0.1);
 }
 
+.project-list {
+  padding-left: 0;
+}
+
 
 
 .seperator {
@@ -158,6 +169,7 @@ footer {
   padding: 5px;
   background-color: white;
   border-radius: 5px;
+  position: relative;
 }
 
 .project-square:hover {
