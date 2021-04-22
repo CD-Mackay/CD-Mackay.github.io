@@ -7,7 +7,7 @@ export default function Introduction() {
     <div id="info-wrapper">
     <div id="about-info">
         <h2>Connor Mackay</h2>
-        <h4>Toronto Web Developer</h4> 
+        <h4>Toronto Web Developer"jira"</h4> 
         <ul class="contact-info">
           <li>
             <a href="https://www.linkedin.com/in/connor-mackay-800992bb/" target="blank">
