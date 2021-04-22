@@ -76,6 +76,8 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  background: rgb(34,152,140);
+  background: linear-gradient(90deg, rgba(34,152,140,1) 0%, rgba(111,104,203,1) 45%, rgba(167,145,236,1) 100%);
 }
 
 li {
@@ -98,6 +100,8 @@ li {
 
 #nav {
   width: 100%;
+  background: rgb(34,152,140);
+  background: linear-gradient(90deg, rgba(34,152,140,1) 0%, rgba(111,104,203,1) 45%, rgba(167,145,236,1) 100%);
 }
 
 .nav-link {
