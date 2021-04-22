@@ -10,9 +10,9 @@ import './App.css';
 // Font awesome Icons
 
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab, faGithubAlt, } from '@fortawesome/free-brands-svg-icons';
-import { faCheckSquare, faCoffee,  } from '@fortawesome/free-solid-svg-icons'
-library.add(fab, faCheckSquare, faCoffee, faGithubAlt,);
+import { fab, faGithubAlt, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faCheckSquare, faCoffee, faEnvelope, faEnvelopeOpen,faPhone } from '@fortawesome/free-solid-svg-icons'
+library.add(fab, faCheckSquare, faCoffee, faGithubAlt, faLinkedinIn, faEnvelope, faEnvelopeOpen, faPhone);
 
 function App() {
   return (

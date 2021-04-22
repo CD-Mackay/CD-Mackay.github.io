@@ -11,7 +11,7 @@ export default function Introduction() {
         <ul class="contact-info">
           <li>
             <a href="https://www.linkedin.com/in/connor-mackay-800992bb/" target="blank">
-              <i class="fab fa-linkedin-in"></i>
+              <FontAwesomeIcon icon={["fab", "linkedin-in"]} />
             </a>
           </li>
           <li>
@@ -22,12 +22,12 @@ export default function Introduction() {
 
           <li>
             <a href="mailto: connor.mackay@gmail.com">
-              <i class="fas fa-envelope"></i>
+              <FontAwesomeIcon icon={["fa", "envelope"]} />
             </a>
           </li>
           <li>
             <a href="tel: 647-393-4507">
-              <i class="fas fa-phone"></i>
+              <FontAwesomeIcon icon={["fa", "phone"]} />
             </a>
           </li>
         </ul> 
