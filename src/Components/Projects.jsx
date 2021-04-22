@@ -13,7 +13,12 @@ export default function Projects() {
     <section id="projects">
       <h2>Projects</h2>
       <div id="projects-grid">
-        <ProjectSquare />
+        <ProjectSquare image={caesar} />
+        <ProjectSquare image={fibonacci} />
+        <ProjectSquare image={helpmehelpyou} />
+        <ProjectSquare image={litevote} />
+        <ProjectSquare image={rails} />
+        <ProjectSquare image={scheduler} />
       </div>
       </section>
   )
