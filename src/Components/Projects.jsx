@@ -1,4 +1,5 @@
 import React from 'react';
+import ProjectSquare from './ProjectSquare';
 
 export default function Projects() {
   return (

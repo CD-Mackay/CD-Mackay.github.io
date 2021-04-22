@@ -1,13 +1,31 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 export default function Footer() {
   return (
     <footer>
     <ul className="footer-links">
-      <li><a href="https://www.linkedin.com/in/connor-mackay-800992bb/" target="blank"><i className="dark-icon fab fa-linkedin-in"></i></a></li>
-      <li><a href="https://github.com/CD-Mackay"><i className="dark-icon fab fa-github"></i></a></li>
-      <li><a href="mailto: connor.mackay@gmail.com"><i className="dark-icon fas fa-envelope"></i></a></li>
-      <li><a href="tel: 6473934597"><i className="dark-icon fas fa-phone"></i></a></li>
+      <li>
+        <a href="https://www.linkedin.com/in/connor-mackay-800992bb/" target="blank">
+        <FontAwesomeIcon icon={["fab", "linkedin-in"]} />
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/CD-Mackay">
+        <FontAwesomeIcon icon={["fab", "github-alt"]} />
+        </a>
+      </li>
+      <li>
+        <a href="mailto: connor.mackay@gmail.com">
+        <FontAwesomeIcon icon={["fa", "envelope"]} />
+        </a>
+      </li>
+      <li>
+        <a href="tel: 6473934597">
+        <FontAwesomeIcon icon={["fa", "phone"]} />
+        </a>
+      </li>
     </ul>
   </footer>
   )

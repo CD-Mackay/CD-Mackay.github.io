@@ -27,7 +27,6 @@ export default function Introduction() {
           </li>
           <li>
             <a href="tel: 647-393-4507">
-              <i class="fas fa-phone"></i>
               <FontAwesomeIcon icon={["fa", "phone"]} />
             </a>
           </li>
