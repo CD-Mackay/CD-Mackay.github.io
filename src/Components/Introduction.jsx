@@ -2,6 +2,7 @@ import React from 'react';
 
 export default function Introduction() {
   return (
+    <div id="info-wrapper">
     <div id="about-info">
         <h2>Connor Mackay</h2>
         <h4>Toronto Web Developer</h4> 
@@ -11,6 +12,7 @@ export default function Introduction() {
           <li><a href="mailto: connor.mackay@gmail.com"><i class="fas fa-envelope"></i></a></li>
           <li><a href="tel: 647-393-4507"><i class="fas fa-phone"></i></a></li>
         </ul> 
+      </div>
       </div>
   )
 }
