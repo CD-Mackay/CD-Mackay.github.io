@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 export default function ProjectSquare(props) {
   return (
@@ -8,7 +10,12 @@ export default function ProjectSquare(props) {
           <ul>
             <li>{props.description}</li>
             {props.stack}
-            <li><a href="https://github.com/alan-mak/HelpMeHelpYou"><i class="dark-icon fab fa-github"></i></a></li>
+            <li>
+              <a href="https://github.com/alan-mak/HelpMeHelpYou">
+              <FontAwesomeIcon icon={["fab", "github-alt"]} />
+              View Project
+              </a>
+            </li>
           </ul>
         </div>
   )
