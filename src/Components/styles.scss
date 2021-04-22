@@ -72,6 +72,12 @@ body {
   height: 30vh;
 }
 
+#info-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 li {
   list-style: none;
   margin-bottom: 5px;
