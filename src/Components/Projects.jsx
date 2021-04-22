@@ -15,8 +15,20 @@ export default function Projects() {
       <div id="projects-grid">
         <ProjectSquare image={caesar} />
         <ProjectSquare image={fibonacci} />
-        <ProjectSquare image={helpmehelpyou} />
-        <ProjectSquare image={litevote} />
+        <ProjectSquare image={helpmehelpyou} 
+                       description={"Full-Stack Application which connects users for mutual aid based on location."}
+                       stack={<li>Built Collaboratively with 
+                                <a href="https://github.com/justinkwanchan" target="blank">Justin Chan
+                                </a> and 
+                                <a href="https://github.com/alan-mak" target="blank">Alan Mak
+                                </a>
+                              </li>}/>
+        <ProjectSquare image={litevote} 
+                       description={"Jquery/Express application which helps users make group decisions."}
+                       stack={<li>Built collaboratively with 
+                                <a href="https://github.com/alan-mak" target="blank">Alan Mak
+                                </a>
+                              </li>}/>
         <ProjectSquare image={rails} />
         <ProjectSquare image={scheduler} />
       </div>
