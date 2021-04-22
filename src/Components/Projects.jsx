@@ -13,8 +13,13 @@ export default function Projects() {
     <section id="projects">
       <h2>Projects</h2>
       <div id="projects-grid">
-        <ProjectSquare image={caesar} />
-        <ProjectSquare image={fibonacci} />
+        <ProjectSquare image={caesar} 
+                       title={"Caesar Cipher"}
+                       description={"Allows for encryption/decryption of short messages using a caesar cipher."}
+                       stack={<li>Users can set encryption and decrpytion key to ensure confidentiality.</li>}/>
+        <ProjectSquare image={fibonacci} 
+                        description={"Practice project to implement data visualization"}
+                        stack={<li>React front end, Express API accesses Postgresql database.</li>} />
         <ProjectSquare image={helpmehelpyou} 
                        description={"Full-Stack Application which connects users for mutual aid based on location."}
                        stack={<li>Built Collaboratively with 
@@ -29,8 +34,13 @@ export default function Projects() {
                                 <a href="https://github.com/alan-mak" target="blank">Alan Mak
                                 </a>
                               </li>}/>
-        <ProjectSquare image={rails} />
-        <ProjectSquare image={scheduler} />
+        <ProjectSquare image={recipe} 
+                       description={"Made prior to attending Lighthouse Labs. Alternative format for recipe blogs to make cooking more accessible."}
+                       stack={<li>Simple HTML, CSS with basic Javascript</li>}/>
+        <ProjectSquare image={scheduler} 
+                       description={"single page application built for Lighthouse Labs Bootcamp"} 
+                       stack={<li>Built with React, tested through Jest and Storybook</li>}/>
+                       
       </div>
       </section>
   )
