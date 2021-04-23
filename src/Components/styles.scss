@@ -35,6 +35,12 @@ i:hover {
   //text-shadow: 0px 1px 3px rgb(0 0 0 / 80%);
 }
 
+#about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .contact-info {
   display: flex;
   flex-direction: row;
@@ -47,7 +53,11 @@ i:hover {
 #card {
   max-width: 30vw;
   margin-left: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: #87A890;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .dark-icon {
