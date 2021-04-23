@@ -207,7 +207,6 @@ footer {
   width: 70vw;
   margin: auto;
   margin-bottom: 40px;
-  height: 40vh;
 }
 
 .skills-list {
@@ -242,5 +241,8 @@ footer {
 
   .wrapper {
     flex-flow: row wrap;
+  }
+  #skills {
+    height: 40vh;
   }
 }
