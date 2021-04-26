@@ -61,7 +61,7 @@ i:hover {
   margin-left: 20px;
   margin-bottom: 20px;
   margin-top: 20px;
-  background-color: #B5B5B5;
+  background-color: $accent-color;
   padding: 10px;
   border-radius: 10px;
   p {
@@ -76,7 +76,7 @@ i:hover {
 html {
   scroll-behavior: smooth;
   //background-image: url("images/asfalt-light.png");
-  background-color: #f5f5f5;
+  background-color: $background-color;
 
 }
 body {
