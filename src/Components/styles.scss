@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito:wght@600&display=swap');
 a {
   text-decoration: none;
   color: #000080;
@@ -63,6 +62,9 @@ i:hover {
   background-color: #87A890;
   padding: 10px;
   border-radius: 10px;
+  p {
+    font-family: 'Montserrat', sans-serif;
+  }
 }
 
 .dark-icon {
@@ -182,6 +184,9 @@ footer {
   background-color: white;
   border-radius: 5px;
   position: relative;
+  li {
+    font-family: 'Montserrat', sans-serif;
+  }
 }
 
 .project-square:hover {
@@ -197,9 +202,6 @@ footer {
 }
 
 #projects-grid {
-  // display: grid;
-  // grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  // grid-gap: 10px;
   display: flex;
   flex-direction: column;
 }
@@ -223,6 +225,7 @@ footer {
   list-style: none;
   padding-left: 0;
   font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .wrapper {
@@ -262,6 +265,6 @@ footer {
   }
 
   #projects {
-    max-width: 70vw;
+    max-width: 80vw;
   }
 }

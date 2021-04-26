@@ -27,9 +27,9 @@ export default function Projects() {
                        title={"HelpmeHelpYou"}
                        description={"Full-Stack Application which connects users for mutual aid based on location."}
                        stack={<li>Built Collaboratively with 
-                                <a href="https://github.com/justinkwanchan" target="blank">Justin Chan
+                                <a href="https://github.com/justinkwanchan" target="blank"> Justin Chan
                                 </a> and 
-                                <a href="https://github.com/alan-mak" target="blank">Alan Mak
+                                <a href="https://github.com/alan-mak" target="blank"> Alan Mak
                                 </a>
                               </li>}
                        url={"https://github.com/alan-mak/HelpMeHelpYou"}/>
@@ -37,7 +37,7 @@ export default function Projects() {
                        title={"Litevote"}
                        description={"Jquery/Express application which helps users make group decisions."}
                        stack={<li>Built collaboratively with 
-                                <a href="https://github.com/alan-mak" target="blank">Alan Mak
+                                <a href="https://github.com/alan-mak" target="blank"> Alan Mak
                                 </a>
                               </li>}
                        url={"https://github.com/alan-mak/LiteVote"}/>
