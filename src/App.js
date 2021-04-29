@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <Header />
       <Introduction />
-      <Separator />
+      {/* <Separator /> */}
       <About />
       <Separator />
       <Skills />
