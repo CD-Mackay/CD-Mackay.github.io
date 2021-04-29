@@ -5,6 +5,7 @@ import About from './Components/About';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import Separator from './Components/Separator';
+import Resume from './Components/Resume';
 import './App.css';
 
 
@@ -29,7 +30,9 @@ function App() {
       <Separator />
       <Projects />
       <Separator />
+      <Resume />
       <Footer />
+
     </div>
   );
 }
