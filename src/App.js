@@ -18,10 +18,12 @@ library.add(fab, faCheckSquare, faCoffee, faGithubAlt, faLinkedinIn, faEnvelope,
 function App() {
   return (
     <div className="App">
+      <div className="opener">
       <Header />
       <Introduction />
       {/* <Separator /> */}
       <About />
+      </div>
       <Separator />
       <Skills />
       <Separator />

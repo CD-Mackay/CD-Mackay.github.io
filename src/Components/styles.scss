@@ -45,9 +45,7 @@ i:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  
-
+ 
 }
 
 .contact-info {
@@ -64,8 +62,9 @@ i:hover {
   margin-left: 20px;
   margin-bottom: 20px;
   margin-top: 20px;
-  background-color: $accent-color;
+  background-color: $background-color;
   padding: 10px;
+  border: 1px solid black;
   border-radius: 10px;
   p {
     font-family: 'Montserrat', sans-serif;
@@ -99,6 +98,7 @@ body {
   padding: 20px;
   width: 40%;
   height: 30vh;
+
 }
 
 #info-wrapper {
@@ -119,13 +119,12 @@ li {
   text-align: center;
   display: flex;
   flex-direction: column;
-  
+ 
 }
-
-
 
 #nav {
   width: 100%;
+  
 }
 
 .nav-link {
