@@ -23,14 +23,14 @@ function App() {
       <Header />
       <Introduction />
       {/* <Separator /> */}
-      <About />
+      {/* <About /> */}
       </div>
       <Separator />
       <Skills />
       <Separator />
       <Projects />
       <Separator />
-      <Resume />
+      {/* <Resume /> */}
       <Footer />
 
     </div>
