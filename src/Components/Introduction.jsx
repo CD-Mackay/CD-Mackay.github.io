@@ -7,7 +7,13 @@ export default function Introduction() {
     <div id="info-wrapper">
     <div id="about-info">
         <h2>Connor Mackay</h2>
-        <h4>Toronto Web Developer</h4> 
+        <h4>Toronto Web Developer</h4>
+        <p>I am a Toronto-based web developer 
+          seeking to turn a lifelong passion 
+          for technology into a career. 
+          I am fascinated by how technology interacts
+           with and impacts how we live, conduct business 
+           and view what is possible.</p> 
         <ul class="contact-info">
           <li>
             <a href="https://www.linkedin.com/in/connor-mackay-800992bb/" target="blank">
