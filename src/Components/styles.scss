@@ -28,53 +28,6 @@ p {
 }
 
 // Component Styles
-// #about-info {
-//   margin-top: auto;
-//   margin-bottom: auto;
-//   padding-bottom: 100px;
-//   color: white;
-//   text-shadow: 0px 1px 3px (black / 80%);
-//   h4 {
-//     margin-top: 0;
-//   }
-//   h2 {
-//     margin-bottom: 20px;
-//   }
-// }
-
-#about-me {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
- 
-}
-
-// .contact-info {
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: space-around;
-//   width: 20vw;
-//   margin: auto;
-//   padding-left: 0;
-//   a:hover {
-//    filter: drop-shadow(0px 1px 3px (black / 80%));
-//   }
-
-// }
-
-#card {
-  max-width: 70vw;
-  margin-left: 20px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  background-color: $background-color;
-  padding: 10px;
-  border: 1px solid black;
-  border-radius: 10px;
-  p {
-    font-family: 'Montserrat', sans-serif;
-  }
-}
 
 .dark-icon {
   color: $icon-color;
@@ -104,13 +57,6 @@ body {
 
 }
 
-// #info-wrapper {
-//   display: flex;
-//   flex-direction: column;
-//   text-align: center;
-//   max-width: 70vw;
-//   margin: 100px auto 0 auto;
-// }
 
 li {
   list-style: none;
@@ -138,10 +84,6 @@ li {
   border-bottom: 2px solid gray;
 }
 
-
-.opener {
-  height: 80vh;
-}
 
 .project-square {
   border: 2px solid black;
@@ -180,28 +122,28 @@ li {
   margin: auto;
 }
 
-#skills {
-  width: 70vw;
-  margin: auto;
-  margin-bottom: 40px;
-}
+// #skills {
+//   width: 70vw;
+//   margin: auto;
+//   margin-bottom: 40px;
+// }
 
-.skills-list {
-  list-style: none;
-  padding-left: 0;
-  font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
-}
+// .skills-list {
+//   list-style: none;
+//   padding-left: 0;
+//   font-size: 20px;
+//   font-family: 'Montserrat', sans-serif;
+// }
 
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  margin: auto;
-  list-style: none;
-  text-align: left;
-  padding-left: 0; 
-}
+// .wrapper {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-around;
+//   margin: auto;
+//   list-style: none;
+//   text-align: left;
+//   padding-left: 0; 
+// }
 
 
 
@@ -222,16 +164,6 @@ li {
 }
 
 @media screen and (min-width: 992px) {
-  #card {
-    max-width: 40vw;
-  }
-
-  .wrapper {
-    flex-flow: row wrap;
-  }
-  #skills {
-    height: 40vh;
-  }
 
   #projects {
     max-width: 80vw;

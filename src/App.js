@@ -22,15 +22,13 @@ function App() {
       <div className="opener">
       <Header />
       <Introduction />
-      {/* <Separator /> */}
-      {/* <About /> */}
       </div>
       <Separator />
       <Skills />
       <Separator />
       <Projects />
       <Separator />
-      {/* <Resume /> */}
+ 
       <Footer />
 
     </div>

@@ -14,7 +14,7 @@
   color: #61dafb;
 }
 .opener {
-  /* height: 100vh; */
+  height: 80vh;
   background-color: #bdd4e7;
   background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
 }
