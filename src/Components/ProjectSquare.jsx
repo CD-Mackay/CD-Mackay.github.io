@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './styles.scss';
+import './projects.scss';
 
 
 export default function ProjectSquare(props) {
