@@ -126,29 +126,6 @@ li {
  
 }
 
-#nav {
-  width: 100%;
-  filter: drop-shadow(0px 1px 3px (black / 80%));
-}
-
-.nav-link {
-  padding: 0px 25px 0px 25px;
-  border-radius: 5px;
-  color: white;
-  font-size: 22px;
-  transition: 0.3s;
-}
-
-.nav-links {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 30%;
-  margin: auto;
-}
-.nav-link:hover {
-  background-color: rgba(0,0,0,0.1);
-}
 
 .project-list {
   padding-left: 0;
