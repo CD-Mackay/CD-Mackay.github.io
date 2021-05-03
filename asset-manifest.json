@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.87ef1210.chunk.css",
+    "main.js": "/static/js/main.9d66ebb4.chunk.js",
+    "main.js.map": "/static/js/main.9d66ebb4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.90042a20.js",
+    "runtime-main.js.map": "/static/js/runtime-main.90042a20.js.map",
+    "static/js/2.536d90a3.chunk.js": "/static/js/2.536d90a3.chunk.js",
+    "static/js/2.536d90a3.chunk.js.map": "/static/js/2.536d90a3.chunk.js.map",
+    "static/js/3.82eebdda.chunk.js": "/static/js/3.82eebdda.chunk.js",
+    "static/js/3.82eebdda.chunk.js.map": "/static/js/3.82eebdda.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.87ef1210.chunk.css.map": "/static/css/main.87ef1210.chunk.css.map",
+    "static/js/2.536d90a3.chunk.js.LICENSE.txt": "/static/js/2.536d90a3.chunk.js.LICENSE.txt",
+    "static/media/caesar.a3aa653c.png": "/static/media/caesar.a3aa653c.png",
+    "static/media/fibonacci.88cfa9c3.png": "/static/media/fibonacci.88cfa9c3.png",
+    "static/media/helpmehelpyou.a2863ec0.png": "/static/media/helpmehelpyou.a2863ec0.png",
+    "static/media/litevote.c9f11698.png": "/static/media/litevote.c9f11698.png",
+    "static/media/rails.2bc7f703.png": "/static/media/rails.2bc7f703.png",
+    "static/media/recipe.0adeb262.png": "/static/media/recipe.0adeb262.png",
+    "static/media/scheduler.e9fc8317.png": "/static/media/scheduler.e9fc8317.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90042a20.js",
+    "static/js/2.536d90a3.chunk.js",
+    "static/css/main.87ef1210.chunk.css",
+    "static/js/main.9d66ebb4.chunk.js"
+  ]
+}
