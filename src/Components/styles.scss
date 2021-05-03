@@ -161,27 +161,6 @@ li {
   border-bottom: 2px solid gray;
 }
 
-footer {
-  width: 100%;
-  background-color: white;
-  height: 40px;
-  margin: 0px;
-  bottom: 0;
-  padding-top: 10px;
-}
-
-.footer-links {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: auto;
-  width: 30vw;
-  li:hover {
-    filter: drop-shadow(0px 1px 3px (black / 80%));
-  }
-}
-
-
 
 .opener {
   height: 80vh;
