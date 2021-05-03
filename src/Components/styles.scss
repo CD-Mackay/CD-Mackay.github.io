@@ -176,7 +176,12 @@ footer {
   justify-content: space-around;
   margin: auto;
   width: 30vw;
+  li:hover {
+    filter: drop-shadow(0px 1px 3px (black / 80%));
+  }
 }
+
+
 
 .opener {
   height: 80vh;
