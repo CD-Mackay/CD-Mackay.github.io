@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito:wght@800&display=swap');
+@import './variables.scss';
+
+.git-link {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.project-square {
+  border: 2px solid black;
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
+  position: relative;
+  li {
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+.project-square:hover {
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+
+#projects {
+  width: 90vw;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+#projects-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-image {
+  width: 100%;
+  height: 40%;
+  object-fit: cover;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.project-list {
+  padding-left: 0;
+  padding-bottom: 10px;
+}
+
+@media screen and (min-width: 576px) {
+
+  #projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 10px;
+  }
+}
+
+
+@media screen and (min-width: 992px) {
+
+  #projects {
+    max-width: 80vw;
+  }
+}

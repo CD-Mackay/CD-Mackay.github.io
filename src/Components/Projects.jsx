@@ -7,6 +7,7 @@ import litevote from '../Images/litevote.png';
 import rails from '../Images/rails.png';
 import recipe from '../Images/recipe.png';
 import scheduler from '../Images/scheduler.png';
+import './projects.scss';
 
 export default function Projects() {
   return (
