@@ -4,9 +4,8 @@ import caesar from '../Images/caesar.png';
 import fibonacci from '../Images/fibonacci.png';
 import helpmehelpyou from '../Images/helpmehelpyou.png';
 import litevote from '../Images/litevote.png';
-import rails from '../Images/rails.png';
-import recipe from '../Images/recipe.png';
 import scheduler from '../Images/scheduler.png';
+import notes from '../Images/NotesApp.png';
 import './projects.scss';
 
 export default function Projects() {
@@ -14,6 +13,11 @@ export default function Projects() {
     <section id="projects">
       <h2>Projects</h2>
       <div id="projects-grid">
+        <ProjectSquare image={notes}
+                       title={"Notes App"}
+                       description={"Uses DraftJs Library to provide rich text editing capabilities."}
+                       stack={<li>React, DraftJS, Express, Axios, PSQL</li>}
+                       url={"https://github.com/CD-Mackay/notes-app"} />
         <ProjectSquare image={caesar} 
                        title={"Caesar Cipher"}
                        description={"Allows for encryption/decryption of short messages using a caesar cipher."}
@@ -42,11 +46,6 @@ export default function Projects() {
                                 </a>
                               </li>}
                        url={"https://github.com/alan-mak/LiteVote"}/>
-        <ProjectSquare image={recipe} 
-                       title={"Alternative Recipe Format"}
-                       description={"Made prior to attending Lighthouse Labs. Alternative format for recipe blogs to make cooking more accessible."}
-                       stack={<li>Simple HTML, CSS with basic Javascript</li>}
-                       url={"https://github.com/CD-Mackay/Alternative-Recipe-Format"}/>
         <ProjectSquare image={scheduler} 
                        title={"Scheduler"}
                        description={"single page application built for Lighthouse Labs Bootcamp"} 
