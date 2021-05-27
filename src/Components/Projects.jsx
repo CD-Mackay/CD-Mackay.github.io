@@ -21,7 +21,7 @@ export default function Projects() {
         <ProjectSquare image={caesar} 
                        title={"Caesar Cipher"}
                        description={"Allows for encryption/decryption of short messages using a caesar cipher."}
-                       stack={<li>Users can set encryption and decrpytion key to ensure confidentiality.</li>}
+                       stack={<li>Users can set encryption and decryption key to ensure confidentiality.</li>}
                        url={"https://github.com/CD-Mackay/caesar-messaging"}/>
         <ProjectSquare image={fibonacci} 
                        title={"Fibonacci Generator"}
